@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: greenyellow;
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    padding: 20px;
+    background-color: darkred;
+    width: 30%;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 20px;
+}
+a{
+    color: black;
+}
+input{
+    width: 90%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(31, 7, 54);
+}
+#new{
+    text-align: center;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    width: 25%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(242, 229, 47);
+    color: rgb(28, 8, 75);
+    font-size: 15px;
+
+    
+}
+#cancel{
+    background-color: rgb(27, 156, 156);
+}
+
+#user{
+   
+    position: relative;
+
+}
+
+.fa-solid{
+    position: absolute;
+    color: red;
+    top: 30%;
+    left: 2%;
+}
+#picon{
+    position: absolute;
+    color: red;
+    top: 30%;
+    left: 2%;
+}
+
+#pass{
+    position: relative;
+}
